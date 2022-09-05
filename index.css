@@ -1,0 +1,77 @@
+@font-face {
+  font-family: cursedtimer;
+  src: url(CursedTimerUlilAznm.ttf);
+}
+
+body {
+    margin: 0;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 575px;
+    height: 380px;
+    background: #1B244A;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+    margin-bottom: 20px; 
+}
+
+.score-area {
+/*background*/
+    max-width: 155px;
+    max-height: 120px;
+    left: 82px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+    margin-top: 1px; 
+    margin-bottom: 26px; 
+/*font*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: lightblue;
+    font-family: cursedtimer;
+    padding-right: 10px;
+}
+
+/* .score-area-light {
+    background: whitesmoke;
+} */
+
+.add-points-btn, #reset-btn {
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+    font-family: cursedtimer;
+    margin: 5px;;
+    color: #9AABD8;
+}
+
+#reset-btn {
+    background: whitesmoke;
+    color: black;
+    width: 70px;
+    margin-top: 100px;
+}
